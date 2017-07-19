@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+
+    "name": "Batis Helper In PHPMyAdmin",
+    "description": "The NBest chrome extension for my work!",
+    "version": "1.5",
+    "permissions": [
+        "activeTab"
+    ],
+	"icons": {
+	      "128": "icon128.png",
+	      "16": "icon16.png",
+	      "48": "icon48.png"
+	},
+    "content_scripts": [{
+        "matches": ["http://*/*"],
+        "css": [],
+        "js": ["jquery.js", "run-spider.js"]
+    }],
+
+    "web_accessible_resources": ["inject.js", "phpmyadmin.inject.js", "wiki.inject.js", "jquery.js"]
+}

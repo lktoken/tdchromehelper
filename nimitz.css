@@ -1,0 +1,5 @@
+@charset=utf-8
+
+textarea.branchbar {
+    border: 0; margin: 3px; padding: 3px; resize: none; height: 26px; width: 240px; background: white;
+}
